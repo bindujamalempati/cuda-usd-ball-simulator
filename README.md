@@ -29,32 +29,7 @@ This project simulates 10 balls falling under gravity using **CUDA** for high-pe
 | **Python** | To write frame-by-frame animation data |
 | **usdview** | To view and interact with the animation |
 
----
 
-## 📂 Project Structure
-
-```
-
-cuda\_usd\_simulation/
-│
-├── include/                # CUDA header files
-│   └── simulation.cuh
-│
-├── src/                    # CUDA + C++ source files
-│   ├── main.cu             # Entry point: calls simulator
-│   ├── simulation.cu       # Physics simulation logic
-│   ├── usd\_loader.cpp/hpp  # Mock USD reader
-│
-├── usd\_writer/             # Python writer to export USD frames
-│   └── usd\_writer.py
-│
-├── output\_frames/          # USD frames generated from simulation
-│   └── frame\_0000.usd → frame\_0049.usd
-│
-├── CMakeLists.txt          # Build instructions
-└── README.md               # This file
-
-````
 
 ---
 
